@@ -28,6 +28,8 @@ This video presents a code review of my *Travlr Getaways* application, originall
 
 I am a Computer Science student with an interest in IT and software development. I am currently seeking opportunities where I can apply my technical skills and continue to grow in the field. 
 
---- ## Contact 
+--- 
+
+## Contact 
 
 - Email: alexander.haun2@gmail.com
