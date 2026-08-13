@@ -1,0 +1,50 @@
+<!-- <pre>{{trips | json}}</pre> -->
+<div *ngIf="isLoggedIn()">
+    <button (click)="addTrip()" class="btn btn-info">Add Trip</button>
+</div>
+
+<div class="row mt-3 mb-3 align-items-end trip-filters">
+    <div class="col-md-4">
+        <label for="tripSearch" class="form-label">Search by name</label>
+        <input
+            id="tripSearch"
+            type="text"
+            class="form-control"
+            placeholder="e.g. Bali Getaway"
+            [(ngModel)]="searchTerm"
+            (ngModelChange)="onFilterChange()" />
+    </div>
+    <div class="col-md-4">
+        <label for="resortFilter" class="form-label">Resort</label>
+        <select
+            id="resortFilter"
+            class="form-select"
+            [(ngModel)]="selectedResort"
+            (ngModelChange)="onFilterChange()">
+            <option value="">All resorts</option>
+            <option *ngFor="let resort of resorts" [value]="resort">{{resort}}</option>
+        </select>
+    </div>
+    <div class="col-md-4">
+        <label for="sortOption" class="form-label">Sort by</label>
+        <select
+            id="sortOption"
+            class="form-select"
+            [(ngModel)]="sortOption"
+            (ngModelChange)="onFilterChange()">
+            <option value="none">Default order</option>
+            <option value="price-asc">Price: low to high</option>
+            <option value="price-desc">Price: high to low</option>
+            <option value="date-asc">Start date: earliest first</option>
+            <option value="date-desc">Start date: latest first</option>
+        </select>
+    </div>
+</div>
+
+<p *ngIf="trips.length === 0" class="text-muted">No trips match your search.</p>
+
+<div class="row">
+    <div *ngFor="let trip of trips" class="col-md-4">
+        <app-trip-card [trip]="trip" class="card-deck mt-2"></app-trip-card>
+    </div>
+</div>
