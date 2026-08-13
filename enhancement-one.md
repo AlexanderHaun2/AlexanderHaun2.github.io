@@ -56,7 +56,7 @@ jwt.verify(token, process.env.JWT_SECRET, (err, verified) => {
 });
 ```
 
-*[View the full file, before](original/travlr/app_api/routes/index.js) · [after](enhanced/travlr/app_api/routes/index.js)*
+*[View the full file, before](https://github.com/AlexanderHaun2/AlexanderHaun2.github.io/tree/main/original/travlr/app_api/routes/index.js) · [after](https://github.com/AlexanderHaun2/AlexanderHaun2.github.io/tree/main/enhanced/travlr/app_api/routes/index.js)*
 
 ## Example Output
 
