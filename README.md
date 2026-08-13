@@ -1,5 +1,5 @@
 # Alexander Haun – Computer Science ePortfolio
-*[My github profile](https://github.com/AlexanderHaun2)
+[My github profile](https://github.com/AlexanderHaun2)
  
 Welcome to my ePortfolio. This site showcases the culmination of my work in Southern New Hampshire University's Computer Science program, with a concentration in software engineering, centered on my CS 499 capstone project.
  
