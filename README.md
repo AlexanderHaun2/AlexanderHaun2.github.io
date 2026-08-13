@@ -22,7 +22,7 @@ My coursework in Discrete Mathematics, Applied Linear Algebra, and Data Structur
  
 **Software Engineering and Database**
  
-Courses across the program, from IT 145 and CS 250 early on to CS 465, Full Stack Development, where the artifact in this ePortfolio originated, built my ability to reason about a system as a whole rather than a single function in isolation. The Software Design and Engineering enhancement in this portfolio corrected a real defect in that original system's authentication flow, and the Databases enhancement went further, adding role-based access control and bringing password hashing in line with current OWASP guidance, while specifically designing the change so it would not silently lock out users who existed before the update.
+Courses across the program, from IT 145 and CS 250 early on to CS 465, Full Stack Development, where the artifact in this ePortfolio originated, built my ability to reason about a system as a whole rather than a single function in isolation. The Software Design and Engineering enhancement in this portfolio corrected a real defect in that original system's authentication flow, and the Databases enhancement went further, adding role-based access control and bringing password hashing in line with current OWASP guidance, while specifically designing the change so it would not silently lock out users who existed before the update. That kind of forward-thinking database design, not just what a schema looks like today but how it behaves as data and requirements change, is exactly the engineering judgment I want to keep building in my career.
  
 **Security**
  
