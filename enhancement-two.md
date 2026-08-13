@@ -8,7 +8,7 @@
 
 This enhancement focuses on the trip listing feature of the Travlr Getaways Angular admin application, specifically `trip-listing.component.ts` and the new `trip-filter.ts` module. This is the same overall project used for the software design and engineering enhancement, since a single artifact may demonstrate skills across multiple ePortfolio categories.
 
-**Code:** the most relevant before/after changes are shown inline below. This enhancement changes trip-listing.component.html and trip-listing.component.ts. It also adds trip-filter.spec.ts and trip-filter.ts. To browse the complete files, see [the original version](https://github.com/AlexanderHaun2/AlexanderHaun2.github.io/tree/main/original/travlr/app_admin) or [the enhanced version](https://github.com/AlexanderHaun2/AlexanderHaun2.github.io/tree/main/enhanced/travlr/app_admin/src/app/utils).
+**Code:** the most relevant before/after changes are shown inline below. This enhancement changes `trip-listing.component.html` and `trip-listing.component.ts`. It also adds `trip-filter.spec.ts` and `trip-filter.ts`. To browse the complete files, see [the original version](https://github.com/AlexanderHaun2/AlexanderHaun2.github.io/tree/main/original/travlr/app_admin) or [the enhanced version](https://github.com/AlexanderHaun2/AlexanderHaun2.github.io/tree/main/enhanced/travlr/app_admin/src/app/utils).
 
 ## Justification for Inclusion
 
