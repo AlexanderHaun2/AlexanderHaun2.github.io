@@ -8,7 +8,7 @@
 
 The artifact enhanced here is Travlr Getaways, a full stack travel booking web application originally built in CS 465: Full Stack Development I and completed in the May–June 2026 term. The application consists of an Express and Node.js backend, public-facing views rendered with Handlebars, a RESTful API layer, a separate Angular single-page application for trip administration, MongoDB data storage accessed through Mongoose, and JSON Web Token authentication implemented with Passport.js. This enhancement focuses on the Express backend, the API routing layer, and the authentication middleware.
 
-**Code:** the most relevant before/after changes are shown inline below. To browse the complete files, see [the original version](https://github.com/AlexanderHaun2/AlexanderHaun2.github.io/tree/main/original/travlr/app_api) or [the enhanced version](https://github.com/AlexanderHaun2/AlexanderHaun2.github.io/tree/main/enhanced/travlr/app_api).
+**Code:** the most relevant before/after changes are shown inline below. This enhancement changes app.js, authentication.js, edit-trip.component.ts, index.js, trip-data.service.ts, and trips.js. It also adds asyncHandler.js, errorHandler.js test_enhancements.js, and validateTrip.js. To browse the complete files, see [the original version](https://github.com/AlexanderHaun2/AlexanderHaun2.github.io/tree/main/original/travlr/app_api) or [the enhanced version](https://github.com/AlexanderHaun2/AlexanderHaun2.github.io/tree/main/enhanced/travlr/app_api).
 
 ## Justification for Inclusion
 
@@ -56,7 +56,7 @@ jwt.verify(token, process.env.JWT_SECRET, (err, verified) => {
 });
 ```
 
-*[View the full file, before →](original/travlr/app_api/routes/index.js) · [after →](enhanced/travlr/app_api/routes/index.js)*
+*[View the full file, before](original/travlr/app_api/routes/index.js) · [after](enhanced/travlr/app_api/routes/index.js)*
 
 ## Example Output
 
