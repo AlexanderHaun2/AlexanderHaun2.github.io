@@ -78,7 +78,7 @@ export function buildResortIndex(trips: Trip[]): Map<string, Trip[]> {
 }
 ```
 
-*[View the full file, before →](original/travlr/app_admin/src/app/trip-listing/trip-listing.component.ts) · [after →](enhancement/travlr/app_admin/src/app/trip-listing/trip-listing.component.ts)*
+*[View the full file, before →](original/travlr/app_admin/src/app/trip-listing/trip-listing.component.ts) · [after →](enhanced/travlr/app_admin/src/app/trip-listing/trip-listing.component.ts)*
 
 ## Example Output
 
