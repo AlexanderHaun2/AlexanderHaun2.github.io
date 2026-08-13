@@ -86,7 +86,7 @@ userSchema.methods.validPassword = function(password) {
 };
 ```
 
-*[View the full file, before](original/travlr/app_api/models/user.js) · [after](enhanced/travlr/app_api/models/user.js)*
+*[View the full file, before](https://github.com/AlexanderHaun2/AlexanderHaun2.github.io/tree/main/original/travlr/app_api/models/user.js) · [after](https://github.com/AlexanderHaun2/AlexanderHaun2.github.io/tree/main/enhanced/travlr/app_api/models/user.js)*
 
 ## Example Output
 
