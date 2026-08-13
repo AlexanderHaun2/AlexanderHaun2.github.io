@@ -8,7 +8,7 @@
 
 This enhancement focuses on the MongoDB/Mongoose data layer of Travlr Getaways, specifically `travlr.js` and `user.js`, the Mongoose schemas for trips and users, and the password-handling logic defined on the user schema.
 
-**Code:** the most relevant before/after changes are shown inline below. This enhancement changes `index.js`, `travlr.js`, `user.js`, and `validateTrip.js`. It also adds `requireRole.js` and `test_milestone4.js`. To browse the complete files, see [the original version](https://github.com/AlexanderHaun2/AlexanderHaun2.github.io/tree/main/original/travlr/app_api/models) or [the enhanced version](https://github.com/AlexanderHaun2/AlexanderHaun2.github.io/tree/main/enhanced/travlr/app_api/models).
+**Code:** the most relevant before/after changes are shown inline below. To view just the files related to this enhancement, see [enhancement three files](https://github.com/AlexanderHaun2/AlexanderHaun2.github.io/tree/main/enhancement-files/enhancement-three). To browse the complete files in context, see [the original version](https://github.com/AlexanderHaun2/AlexanderHaun2.github.io/tree/main/original/travlr/app_api/models) or [the enhanced version](https://github.com/AlexanderHaun2/AlexanderHaun2.github.io/tree/main/enhanced/travlr/app_api/models).
 
 ## Justification for Inclusion
 
