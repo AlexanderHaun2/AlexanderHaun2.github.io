@@ -32,7 +32,7 @@ Travlr Getaways was selected because it is a genuine full stack application span
 
 **The core fix: `authenticateJWT` in `app_api/routes/index.js`**
 
-Before, `next()` ran immediately after starting an asynchronous token verification, so a request could reach the protected route before the token was actually checked:
+BEFORE: `next()` ran immediately after starting an asynchronous token verification, so a request could reach the protected route before the token was actually checked:
 
 ```javascript
 jwt.verify(token, process.env.JWT_SECRET, (err, verified) => {
@@ -44,7 +44,7 @@ jwt.verify(token, process.env.JWT_SECRET, (err, verified) => {
 next(); // ran regardless of whether verification above had finished
 ```
 
-After, `next()` only runs from inside the callback, once verification has actually completed:
+AFTER: `next()` only runs from inside the callback, once verification has actually completed:
 
 ```javascript
 jwt.verify(token, process.env.JWT_SECRET, (err, verified) => {
